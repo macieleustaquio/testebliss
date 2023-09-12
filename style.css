@@ -1,0 +1,51 @@
+/*
+Theme Name: WordPress Challenge - Bliss
+Author: Maciel Pinto
+Description: Tema desenvolvido para o Exercício de Wordpress
+Version: 1.0
+*/
+
+.logo {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+/* Hero Brackground */
+.hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Overlay de cor */
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);  /* Cor preta com 50% de opacidade */
+    z-index: 1;
+  }
+  
+  /* Conteúdo do hero */
+.hero-content {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#searchform input{
+    margin-bottom: 10px;
+}
