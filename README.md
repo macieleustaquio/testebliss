@@ -66,6 +66,7 @@ Instruções:
 Iniciar Servidor Local:
 
 Abra o WAMP (ou software similar) para criar um servidor local no seu computador.
+
 Criação do Banco de Dados:
 
 É necessário criar um novo banco de dados, mesmo que ele seja substituído posteriormente. Esta etapa é obrigatória para a instalação do WordPress.
