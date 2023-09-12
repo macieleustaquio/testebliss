@@ -63,31 +63,31 @@ Ter o WAMP ou um software similar instalado no seu computador.
 Um arquivo de backup recente do projeto disponível no repositório Git.
 Instruções:
 
-Iniciar Servidor Local:
+1- Iniciar Servidor Local:
 
 Abra o WAMP (ou software similar) para criar um servidor local no seu computador.
 
-Criação do Banco de Dados:
+2 - Criação do Banco de Dados:
 
 É necessário criar um novo banco de dados, mesmo que ele seja substituído posteriormente. Esta etapa é obrigatória para a instalação do WordPress.
 
-Instalação do WordPress:
+3 - Instalação do WordPress:
 
 Faça o download e instale o WordPress seguindo o tradicional passo a passo de 5 minutos.
 
-Instalação do Plugin All-in-One WP Migration:
+4 - Instalação do Plugin All-in-One WP Migration:
 
 Após instalar o WordPress, instale o plugin All-in-One WP Migration pelo painel administrativo.
 
-Configuração do php.ini:
+5 - Configuração do php.ini:
 
 Antes de prosseguir, verifique se o limite de upload está configurado para mais de 50MB no arquivo php.ini. Se necessário, ajuste esse valor.
 
-Upload do Arquivo de Backup:
+6 - Upload do Arquivo de Backup:
 
 Faça o upload do arquivo zipado de backup localhost-wptheme-20230912-193835-el4ydd.wpress usando o plugin All-in-One WP Migration.
 
-Finalização e Acesso:
+7 - Finalização e Acesso:
 
 Ao concluir o upload, saia do painel administrativo e efetue o login novamente utilizando as seguintes credenciais:
 
